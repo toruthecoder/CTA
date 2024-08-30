@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+
+/* Header Start */
+
+.contain0{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #fff;
+    background-color: antiquewhite;
+}
+
+.contain0 nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.contain0 nav h1{
+    margin-left: 5vw;
+    margin-top: 3vh;
+    font-size: 3vw;
+}
+
+.light{
+    position: absolute;
+    margin-left: 70vw;
+    font-size: 2.5vw;
+}
+.light i {
+    margin-left: 2vw;
+    cursor: pointer;
+}
+
+
+.toggle{
+    font-size: 3vw;
+    margin-right: 7vw;
+    margin-top: 1vh;
+    cursor: pointer;
+}
+
+/* Header End */
+
+.menu{
+    position: absolute;
+    background-color: steelblue;
+    width: 35vw; 
+    height: 100vh;
+    transform: translate(-100%);
+    transition: all 0.3s linear 0s;
+}
+
+.active{
+    transform: translate(0%);
+}
+
+.ul1{
+    list-style: none;
+    text-decoration: none;
+}
+
+.ul1 li{
+    list-style-type: none;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    font-size: 3vw;
+    
+
+}
+
+.ul1 li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.ul2{
+    list-style: none;
+    border-top: 1px solid rgb(153, 144, 144);
+}
+
+.ul2 li{
+    list-style-type: none;
+    margin-left: 5vw;
+    margin-top: 7vh;
+    font-size: 3vw;
+    
+
+}
+
+.ul2 li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Title Start */
+
+.contain{
+    margin-top: 5vh;
+}
+
+.contain h1{
+    text-align: center;
+}
+
+/* Title Ends */
+
+/* Heading Start */
+
+.container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.contain1{
+    margin-top: 10vh;
+    width: 50vw;
+}
+
+.contain1 h2{
+    color: #209AF6;
+    text-align: center;
+}
+
+.contain1 h3{
+    text-align: center;
+    margin-top: 4vh;
+}
+
+.btn button{
+    border: none;
+    margin-left: 9vw;
+    margin-top: 5vh;
+    padding: 2vh 10vw; 
+    background-color: #176FB3;
+    font-size: 3vw;
+    color: #fff;
+    border-radius: 3vw;
+    cursor: pointer;
+}
+
+.contain2{
+    margin-top: 10vh;
+}
+
+.contain2 img{
+    overflow: hidden;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 60vh;
+    border: 1px solid grey;
+    border-radius: 2vw;
+}
+/* Heading Ends */
+
+/* Section1 Starts */
+
+.contain3 h1{
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box{
+    border-radius: 2vw;
+    background-color: antiquewhite;
+    flex-direction: row;
+    width: 30vw;
+    margin-top: 6vh;
+}
+
+.image img{
+    width: 15vw;
+    margin-left: 7vw;
+    margin-top: 2vh;
+}
+
+.box h3{
+    color: #209AF6;
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.btn2 button{
+    margin-left: 8vw;
+    margin-top: 5vh;
+    border: none;
+    padding: 1vh 2vw; 
+    background-color: #176FB3;
+    font-size: 2.25vw;
+    color: #fff;
+    border-radius: 3vw;
+    cursor: pointer;
+}
+
+
+/* Section1 Ends */
+
+
+/* Section2 Starts */
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text1 h1{ 
+    text-align: center;
+    margin-top: 10vh;
+}
+
+/* Section2 Ends */
+
+/* Footer Starts*/
+
+.container3{
+    background-color: black;
+    color: #fff;
+    margin-top: 10vh;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.contain7{
+    width:20vw;
+    margin-left: 5vw;
+}
+
+.text9{
+    padding-top: 5vh;
+}
+
+.contain7 ul{
+    margin-top: 5vh;
+}
+
+.contain7 ul li{
+    margin-top: 2vh;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.contain8{
+    width:30vw;
+    margin-left: 5vw;
+}
+
+.contain8 ul{
+    margin-top: 5vh;
+}
+
+.contain8 ul li{
+    margin-top: 2vh;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.contain9{
+    margin-right: 9vw;
+}
+
+.contain9 a i{
+    color: #fff;
+    font-size: 3vw;
+    margin-top: 3vh;
+    margin-left: 3vw;
+}
+
+/* Footer Ends */
+
+.btn2 button{
+    margin-bottom: 5vh;
+}
+
+#fixedContainer{
+    background-color:#176FB3;
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    height: 10vh;
+    display: none;
+}
+
+#fixedContainer h1{
+    width: 30vw;
+    color: #fff;
+    margin-top: 2vh;
+    position: absolute;
+    margin-left: 5vw;
+}
+
+.btn9 button{
+    position: absolute;
+    border: none;
+    padding: 1vh 2vw; 
+    font-size: 2vw;
+    border-radius: 1vw;
+    margin-left: 70vw;
+    margin-top: 2vh;
+    cursor: pointer;
+}
